@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - RedStore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <div class="container">
+          <div class="navbar">
+              <div class="logo">
+                  <a href="index.html"><img src="/Users/kai/Desktop/Website/image/MONOX logo.png" width="125px"></a>
+              </div>
+              <nav>
+               <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="product.html">Products</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Contact</a></li>
+                   <li><a href="account.html">Account</a></li>
+               </ul>
+              </nav>
+              <a href="cart.html"><img src="/Users/kai/Desktop/Website/image/shopping_bag.png" width="30px" height="30px"></a>
+              
+          </div>
+          
+       </div>
+<!----------------- title -------------->
+<div class="small-container">
+   <div class="row row-2">
+       <h2>All Products</h2>
+       <select>
+           <option>Default Shorting</option>
+           <option>Short by price</option>
+           <option>Short by popularity</option>
+           <option>Short by rating</option>
+           <option>Short by sale</option>
+       </select>
+   </div>
+    
+             
+           <div class="row">
+               <div class="col-4">
+                   
+                   <a href="/Users/kai/Desktop/Website/shoe1.html"><img src="/Users/kai/Desktop/Website/image/NEW SHOES/Shoe 1.png"></a>
+                   <h4><a href="/Users/kai/Desktop/Website/shoe1.html">Shoe 1</a></h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Price</p>
+               </div> 
+               <div class="col-4">
+                <a href="/Users/kai/Desktop/Website/shoe2.html"><img src="/Users/kai/Desktop/Website/image/NEW SHOES/Shoe 2.png">
+                    <h4><a href="/Users/kai/Desktop/Website/shoe2.html">Shoe 2</a></h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Price</p>
+               </div> 
+               <div class="col-4">
+                <a href="/Users/kai/Desktop/Website/shoe3.html"><img src="/Users/kai/Desktop/Website/image/NEW SHOES/Shoe 3.png">
+                   <h4><a href="/Users/kai/Desktop/Website/shoe3.html">Shoe 3</a></h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-half-o"></i>
+                   </div>
+                   <p>Price</p>
+               </div> 
+                <div class="col-4">
+                   <img src="/Users/kai/Desktop/Website/image/NEW SHOES/Shoe 4.png">
+                   <h4>Shoe 4</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Price</p>
+               </div> 
+           </div>
+            
+             <div class="row">
+               <div class="col-4">
+                   <img src="/Users/kai/Desktop/Website/image/NEW SHOES/Shoe 5 .png">
+                   <h4>Shoe 5</h4>
+                   <div class="rating">
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star"></i>
+                       <i class="fa fa-star-o"></i>
+                   </div>
+                   <p>Price </p>
+            </div>
+               
+           
+           
+        </div>  
+</div>
+    
+<!----------Footer---------------> 
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col2">
+               <img src="/Users/kai/Desktop/Website/image/MONOX title.png">
+                <p>Our Slogan.</p>
+            </div>
+            
+            <div class="footer-col3">
+               <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter<li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"><a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1">Copyright 2020 - Easy Tutorials</a></p>
+    </div>
+    
+</div>
+
+
+
+<!-------------js for toggle menu-------------->
+
+<script>
+    
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+    
+    function menutoggle()
+    {
+        if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }else
+            {
+                MenuItems.style.maxHeight = "0px"
+            } 
+    }
+    
+</script>
+
+
+
+</body>
+</html>
+
